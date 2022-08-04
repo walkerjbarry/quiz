@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Quiz</title>
+</head>
+<body>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. Which city is the capital city of Texas?</p>
+            <p><input type="radio" name="question1" value="Dallas">A. Dallas</p>
+            <p><input type="radio" name="question1" value="San Antonio">B. San Antonio</p>
+            <p><input type="radio" name="question1" value="Austin">C. Austin</p>
+            <p><input type="radio" name="question1" value="Houston">D. Houston</p>
+        </div>
+        <div>
+            <p>2. Which Texas City borders Juarez, Mexico?</p>
+            <p><input type="radio" name="question2" value="El Paso">A. El Paso</p>
+            <p><input type="radio" name="question2" value="Houston">B. Houston</p>
+            <p><input type="radio" name="question2" value="San Antonio">C. San Antonio</p>
+            <p><input type="radio" name="question2" value="Dallas">D. Dallas</p>
+        </div>
+        <div>
+            <p>3. Which US Interstate runs through the center of Texas, all the way up to Minnesota?</p>
+            <p><input type="radio" name="question3" value="I-40">A. I-40</p>
+            <p><input type="radio" name="question3" value="I-72">B. I-72</p>
+            <p><input type="radio" name="question3" value="I-95">C. I-95</p>
+            <p><input type="radio" name="question3" value="I-35">D. I-35</p>
+        </div>
+
+        <input type="button" name="" value="Submit Answer" id="button" onclick="check()">
+    </form>
+    <p id="result"></p>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
