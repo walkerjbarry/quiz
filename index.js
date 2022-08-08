@@ -18,5 +18,6 @@ function check() {
     if (q2 == "El Paso") { i++ };
     if (q3 == "I-35") { i++ };
     quiz.style.display = "none";
-    result.textContent = `${i}`;
+    result.textContent = `You got ${i} correct, out of three questions. Correct answers were: 1. Austin, 2. El Paso, 3. I-35. `;
 };
+
